@@ -1,0 +1,27 @@
+@mixin line-after {
+    content: '';
+    display: inline-block;
+    background-color: $primary-color;
+    width: 30px;
+    height: 1px;
+    margin: 8px 45px;
+}
+
+@mixin line-after1024 {
+    width: 28px;
+    margin: 7px 40px;
+}
+
+@mixin line-after768 {
+    margin: 7px 35px;
+}
+
+@mixin button {
+    display: inline-block;
+    width: 264px;
+    height: 60px;
+    border-radius: 30px;
+    line-height: 60px;
+    font-size: 16px;
+    font-weight: 700;
+}

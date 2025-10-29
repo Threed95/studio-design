@@ -1,0 +1,19 @@
+.banner-title {
+    font-size: 72px;
+    letter-spacing: 1.4px;
+    color: $primary-color;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .banner-title {
+        font-size: 68px;
+        margin-bottom: 45px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner-title {
+        margin-bottom: 22px;
+    }
+}

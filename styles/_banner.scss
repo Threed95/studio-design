@@ -1,0 +1,29 @@
+.banner {
+    padding: 340px 0 40px;
+    &__text {
+        font-size: 22px;
+        letter-spacing: 0.4px;
+        line-height: 33px;
+        color: $primary-color;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        padding-top: 256px;
+        &__text {
+            font-size: 20px;
+            margin-bottom: 70px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        padding-top: 90px;
+        &__text {
+            margin-bottom: 84px;
+        }
+    }
+}

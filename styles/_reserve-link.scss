@@ -1,0 +1,16 @@
+.reserve-link {
+    background-color: $bg-color;
+    margin-bottom: 279px;
+}
+
+@media screen and (max-width: 1024px) {
+    .reserve-link {
+        margin-bottom: 273px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reserve-link {
+        margin-bottom: 76px;
+    }
+}

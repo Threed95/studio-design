@@ -1,0 +1,33 @@
+.our-services {
+    & .container {
+        max-width: 1183px;
+        margin: 0 auto;
+    }
+    &__text {
+        font-size: 24px;
+        width: 580px;
+        margin: 0 auto 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .our-services {
+        & .container {
+            max-width: 940px;
+        }
+        &__text {
+            font-size: 22px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .our-services {
+        & .container {
+            max-width: 580px;
+        }
+        &__text {
+            margin-bottom: 55px;
+        }
+    }
+}

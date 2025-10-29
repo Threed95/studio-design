@@ -1,0 +1,50 @@
+                    .article-column {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        &__image {
+                            display: block;
+                            width: 100px;
+                            margin: 0 auto 40px;
+                        }
+                        &__title {
+                            font-size: 18px;
+                            margin-bottom: 30px;
+                            color: #474747;
+                        }
+                        &__text {
+                            font-size: 14px;
+                            max-width: 335px;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 1024px) {
+                        .article-column {
+                            &__image {
+                                margin-bottom: 30px;
+                            }
+                            &__title {
+                                font-size: 16px;
+                            }
+                            &__text {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                    
+                    @media screen and (max-width: 768px) {
+                        .article-column {
+                            &:not(:last-child) {
+                                margin-bottom: 50px;
+                            }
+                            &__image {
+                                margin-bottom: 25px;
+                            }
+                            &__title {
+                                margin-bottom: 25px;
+                            }
+                            &__text {
+                                max-width: 551px;
+                            }
+                        }
+                    }

@@ -5,14 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студия дизайна</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="page-header">
-                <img src="images/logo.png" alt="логотип" class="logo">
-                <div class="menu-container">
+    <div class="main-page">
+        <header class="header">
+            <div class="container">
+                <div class="page-header">
+                    <img src="images/logo.png" alt="логотип" class="logo">
                     <nav class="menu">
                         <a href="#" class="menu__item">Услуги</a>
                         <a href="#" class="menu__item">Цены</a>
@@ -20,148 +23,146 @@
                     </nav>
                 </div>
             </div>
+        </header>
+        <main>
+            <section class="banner">
+                <div class="container">
+                    <h1 class="banner-title">Студия дизайна интерьера</h1>
+                    <p class="banner__text">Дизайн квартир и общественных пространств в современном стиле</p>
+                    <a href="#" class="reserve-link button">Заказать проект</a>
+                    <a href="#" class="arrow-link"></a>
+                </div>
+            </section>
+    </div>
+    <section class="our-services">
+        <div class="container">
+            <h2 class="our-services-title">Наши услуги</h2>
+            <p class="our-services__text">Мы создаем функциональные дизайнерские проекты от маленьких до больших пространств</p>
+            <div class="article-services">
+                <article class="article-column">
+
+                    <img src="images/flats.svg" alt="интерьер квартир" class="article-column__image">
+                    <h3 class="article-column__title">Интерьер квартир</h3>
+                    <p class="article-column__text">Мы проектируем интерьеры больших и маленьких квартир. Мы знаем, как создать уют в любой комнате.</p>
+                </article>
+                <article class="article-column">
+
+                    <img src="images/private-house.svg" alt="интерьер частных домов" class="article-column__image">
+                    <h3 class="article-column__title">Интерьер частных домов</h3>
+                    <p class="article-column__text">Мы делаем дизайн для частных домов любого размера и планировки. Создаем уютную обстановку.</p>
+                </article>
+                <article class="article-column">
+
+                    <img src="images/supervision.svg" alt="контроль исполнения" class="article-column__image">
+                    <h3 class="article-column__title">Авторский надзор</h3>
+                    <p class="article-column__text">Мы заботимся обо всем, что связано с проектом: будь то подрядчики по строительству или инженерные работы.</p>
+
+                </article>
+            </div>
+
         </div>
-    </header>
-    <main>
-        <section class="banner">
-            <div class="container">
-                <h1 class="banner-title">Студия дизайна и интерьера</h1>
-                <p class="banner__text">Дизайн квартир и общественных пространств в современном стиле</p>
-                <a href="#" class="reserve-link button">Заказать проект</a>
-                <a href="#" class="arrow-link"></a>
-            </div>
-        </section>
-        <section class="our-services">
-            <div class="container">
-                <h2 class="our-services-title">Наши услуги</h2>
-                <p class="our-services__text">Мы создаем функциональные дизайнерские проекты от маленьких до больших пространств</p>
-                <div class="article-services">
-                    <article class="article-services-item">
-                        <div class="article-column">
-                            <img src="images/flats.svg" alt="интерьер квартир" class="article-column__image">
-                            <h3 class="article-column__title">Интерьер квартир</h3>
-                            <p class="article-column__text">Мы проектируем интерьеры больших и маленьких квартир. Мы знаем, как создать уют в любой комнате.</p>
-                        </div>
-                    </article>
-                    <article class="article-services-item">
-                        <div class="article-column">
-                            <img src="images/private-house.svg" alt="интерьер частных домов" class="article-column__image">
-                            <h3 class="article-column__title">Интерьер частных домов</h3>
-                            <p class="article-column__text">Мы делаем дизайн для частных домов любого размера и планировки. Создаем уютную обстановку.</p>
-                        </div>
-                    </article>
-                    <article class="article-services-item">
-                        <div class="article-column">
-                            <img src="images/supervision.svg" alt="контроль исполнения" class="article-column__image">
-                            <h3 class="article-column__title">Авторский надзор</h3>
-                            <p class="article-column__text">Мы заботимся обо всем, что связано с проектом: будь то подрядчики по строительству или инженерные работы.</p>
-                        </div>
-                    </article>
-                </div>
+    </section>
 
-            </div>
-        </section>
+    <section class="about-us about-us--beige">
+        <div class="container">
+            <h2 class="about-us-title">О нашей студии</h2>
+            <img src="images/about-us.png" alt="о нас" class="about-us__image">
+            <p class="about-us__text">Sphere — это команда дизайнеров интерьера, мы работаем вместе уже более 5 лет. Мы знаем все нюансы дизайна и строительства и создаем функциональное пространство для наших клиентов.</p>
 
-        <section class="about-us">
-            <div class="container">
-                <h2 class="about-us-title">О нашей студии</h2>
-                <img src="images/about-us.png" alt="о нас" class="about-us__image">
-                <p class="about-us__text">Sphere — это команда дизайнеров интерьера, мы работаем вместе уже более 5 лет. Мы знаем все нюансы дизайна и строительства и создаем функциональное пространство для наших клиентов.</p>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="portfolio-title">Портфолио</h2>
+            <p class="portfolio__text">Фрагменты наших избранных проектов</p>
+            <div class="portfolio-images">
+                <img src="images/image-1.png" alt="портфолио вариант 1" class="portfolio-images__item">
+                <img src="images/image-2.png" alt="портфолио вариант 2" class="portfolio-images__item">
+                <img src="images/image-3.png" alt="портфолио вариант 3" class="portfolio-images__item">
+                <img src="images/image-4.png" alt="портфолио вариант 4" class="portfolio-images__item">
+            </div>
+            <a href="#" class="projects-link button button--black">Смотреть все проекты</a>
+        </div>
+    </section>
+    <section class="our-rates our-rates--beige">
+        <div class="container">
+            <h2 class="our-rates-title">Наши тарифы</h2>
+            <p class="our-rates__text">Выберите тариф, который подходит вам, свяжитесь с нами и закажите дизайн-проект.</p>
+            <div class="rates-column">
+                <article class="rate-features">
+                    <h2 class="rate-features__title">Базовый</h2>
+                    <span class="rate-features__price">5 000 руб/м2</span>
+                    <ul class="rate-features__list">
+                        <li class="rate-feature__list__item">Два планировочных решения</li>
+                        <li class="rate-feature__list__item"> 3D-визуализация всех комнат</li>
+                        <li class="rate-feature__list__item">Рабочая документация</li>
+                    </ul>
+                    <a href="#" class="rate-link button">Заказать проект</a>
+                </article>
+                <article class="rate-features rate-features--red">
+                    <h2 class="rate-features__title">Стандартный</h2>
+                    <span class="rate-features__price">10 000 руб/м2</span>
+                    <ul class="rate-features__list">
+                        <li class="rate-feature__list__item">Четыре планировочных решения</li>
+                        <li class="rate-feature__list__item">3D -визуализация всех комнат</li>
+                        <li class="rate-feature__list__item">Рабочая документация</li>
+                        <li class="rate-feature__list__item"> Спецификация мебели</li>
+                    </ul>
+                    <a href="#" class="rate-link button">Заказать проект</a>
+                </article>
+                <article class="rate-features">
+                    <h2 class="rate-features__title">Премиум</h2>
+                    <span class="rate-features__price">15 000 руб/м2</span>
+                    <ul class="rate-features__list">
+                        <li class="rate-feature__list__item">Четыре планировочных решения</li>
+                        <li class="rate-feature__list__item"> 3D-визуализация всех комнат</li>
+                        <li class="rate-feature__list__item">Рабочая документация</li>
+                        <li class="rate-feature__list__item">Работа с подрядчиками</li>
+                    </ul>
+                    <a href="#" class="rate-link button">Заказать проект</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="work">
+        <div class="container">
+            <h2 class="work-title">Как мы работаем</h2>
+            <div class="process">
+                <div class="process-icons">
+                    <img src="images/sketch-icon.png" alt="предварительный эскиз" class="process-icons__item">
+                    <img src="images/project-icon.png" alt="визуализация проекта" class="process-icons__item">
+                    <img src="images/document-icon.png" alt="рабочая документация" class="process-icons__item">
+                    <img src="images/control-icon.png" alt="авторский надзор" class="process-icons__item"></div>
+            </div>
+            <div class="process-description">
+                <div class="process-description__column">
+                    <h3 class="process-description__column__title">Предварительный эскиз</h3>
+                    <p class="process-description__column__text">Определение стилистического решения интерьера, подготовка технических заданий, планировочных решений, коллажей для всех помещений.</p>
+                </div>
+                <div class="process-description__column">
+                    <h3 class="process-description__column__title">Визуализация проекта</h3>
+                    <p class="process-description__column__text">Детальная визуализация каждой комнаты. 3D-изображения учитывают ранее выбранные элементы интерьера и отделочные материалы.</p>
+                </div>
+                <div class="process-description__column">
+                    <h3 class="process-description__column__title">Рабочая документация</h3>
+                    <p class="process-description__column__text">Создание рабочей документации для проекта дизайна интерьера: спецификации и планировочное решение с мебелью.</p>
+                </div>
+                <div class="process-description__column">
+                    <h3 class="process-description__column__title">Авторский надзор</h3>
+                    <p class="process-description__column__text">Контроль соответствия строительных работ проектному плану. Наш дизайнер и инженер регулярно посещают объект и все контролируют. Мы осуществляем и закупку материалов.</p>
+                </div>
+            </div>
+            <div class="contacts-block">
+                <form action="#" class="contacts-form">
+                    <h3 class="contacts-form__title">Обратный звонок</h3>
+                    <input type="text" class="contacts-form__input" placeholder="Ваше имя">
+                    <input type="text" class="contacts-form__input" placeholder="+1 (123) ___ - __ - __">
+                    <button type="submit" class="form-button button">Перезвоните мне</button>
+                </form>
+            </div>
 
-            </div>
-        </section>
-        <section class="portfolio">
-            <div class="container">
-                <h2 class="portfolio-title">Портфолио</h2>
-                <p class="portfolio__text">Фрагменты наших избранных проектов</p>
-                <div class="portfolio-images">
-                    <img src="images/image-1.png" alt="портфолио вариант 1" class="portfolio-images__item">
-                    <img src="images/image-2.png" alt="портфолио вариант 2" class="portfolio-images__item">
-                    <img src="images/image-3.png" alt="портфолио вариант 3" class="portfolio-images__item">
-                    <img src="images/image-4.png" alt="портфолио вариант 4" class="portfolio-images__item">
-                </div>
-                <a href="#" class="projects-link button button--black">Смотреть все проекты</a>
-            </div>
-        </section>
-        <section class="our-rates">
-            <div class="container">
-                <h2 class="our-rates-title">Наши тарифы</h2>
-                <p class="our-rates__text">Выберите тариф, который подходит вам, свяжитесь с нами и закажите дизайн-проект.</p>
-                <div class="rates-column">
-                    <article class="rate-features">
-                        <h2 class="rate-features__title">Базовый</h2>
-                        <span class="rate-features__price">5 000 руб/м2</span>
-                        <ul class="rate-features__list">
-                            <li class="rate-feature__list__item">Два планировочных решения</li>
-                            <li class="rate-feature__list__item"> 3D-визуализация всех комнат</li>
-                            <li class="rate-feature__list__item">Рабочая документация</li>
-                        </ul>
-                        <a href="#" class="rate-link button">Заказать проект</a>
-                    </article>
-                    <article class="rate-features rate-features--red">
-                        <h2 class="rate-features__title">Стандартный</h2>
-                        <span class="rate-features__price">10 000 руб/м2</span>
-                        <ul class="rate-features__list">
-                            <li class="rate-feature__list__item">Четыре планировочных решения</li>
-                            <li class="rate-feature__list__item">3D -визуализация всех комнат</li>
-                            <li class="rate-feature__list__item">Рабочая документация</li>
-                            <li class="rate-feature__list__item"> Спецификация мебели</li>
-                        </ul>
-                        <a href="#" class="rate-link button">Заказать проект</a>
-                    </article>
-                    <article class="rate-features">
-                        <h2 class="rate-features__title">Премиум</h2>
-                        <span class="rate-features__price">15 000 руб/м2</span>
-                        <ul class="rate-features__list">
-                            <li class="rate-feature__list__item">Четыре планировочных решения</li>
-                            <li class="rate-feature__list__item"> 3D-визуализация всех комнат</li>
-                            <li class="rate-feature__list__item">Рабочая документация</li>
-                            <li class="rate-feature__list__item">Работа с подрядчиками</li>
-                        </ul>
-                        <a href="#" class="rate-link button">Заказать проект</a>
-                    </article>
-                </div>
-            </div>
-        </section>
-        <section class="work">
-            <div class="container">
-                <h2 class="work-title">Как мы работаем</h2>
-                <div class="process">
-                    <div class="process-icons">
-                        <img src="images/sketch-icon.png" alt="предварительный эскиз" class="process-icons__item">
-                        <img src="images/project-icon.png" alt="визуализация проекта" class="process-icons__item">
-                        <img src="images/document-icon.png" alt="рабочая документация" class="process-icons__item">
-                        <img src="images/control-icon.png" alt="авторский надзор" class="process-icons__item"></div>
-                </div>
-                <div class="process-description">
-                    <div class="process-description__column">
-                        <h3 class="process-description__column__title">Предварительный эскиз</h3>
-                        <p class="process-description__column__text">Определение стилистического решения интерьера, подготовка технических заданий, планировочных решений, коллажей для всех помещений.</p>
-                    </div>
-                    <div class="process-description__column">
-                        <h3 class="process-description__column__title">Визуализация проекта</h3>
-                        <p class="process-description__column__text">Детальная визуализация каждой комнаты. 3D-изображения учитывают ранее выбранные элементы интерьера и отделочные материалы.</p>
-                    </div>
-                    <div class="process-description__column">
-                        <h3 class="process-description__column__title">Рабочая документация</h3>
-                        <p class="process-description__column__text">Создание рабочей документации для проекта дизайна интерьера: спецификации и планировочное решение с мебелью.</p>
-                    </div>
-                    <div class="process-description__column">
-                        <h3 class="process-description__column__title">Авторский надзор</h3>
-                        <p class="process-description__column__text">Контроль соответствия строительных работ проектному плану. Наш дизайнер и инженер регулярно посещают объект и все контролируют. Мы осуществляем и закупку материалов.</p>
-                    </div>
-                </div>
-                <div class="contacts-block">
-                    <form action="#" class="contacts-form">
-                        <h3 class="contacts-form__title">Обратный звонок</h3>
-                        <input type="text" class="contacts-form__input" placeholder="Ваше имя">
-                        <input type="text" class="contacts-form__input" placeholder="+1 (123) ___ - __ - __">
-                        <button type="submit" class="form-button button">Перезвоните мне</button>
-                    </form>
-                </div>
-
-            </div>
-        </section>
+        </div>
+    </section>
     </main>
     <footer>
         <div class="container">

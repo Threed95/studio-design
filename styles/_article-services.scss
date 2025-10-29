@@ -1,0 +1,12 @@
+        .article-services {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .article-services {
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+            }
+        }

@@ -1,0 +1,23 @@
+.arrow-link::after {
+    content: '';
+    width: 57px;
+    height: 20px;
+    display: block;
+    color: $primary-color;
+    background-image: url(../images/arrow.png);
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .arrow-link::after {
+        background-image: url(../images/vector1024.png);
+        width: 45px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .arrow-link::after {
+        background-image: url(../images/vector768.png);
+        width: 40px;
+    }
+}

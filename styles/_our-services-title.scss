@@ -1,0 +1,17 @@
+.our-services-title {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .our-services-title {
+        font-size: 38px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .our-services-title {
+        margin-bottom: 35px;
+    }
+}
